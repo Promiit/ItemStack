@@ -21,3 +21,6 @@ itemstack.stacksize
 itemstack.stacktotal  
 itemstack.stackfind  
 
+# Version info:
+Currently updated to use SPIGOT 1.17.1
+Plugin ver 1.0.1
