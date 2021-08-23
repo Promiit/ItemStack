@@ -1,0 +1,34 @@
+name: ItemStack
+version: 1.1
+author: ZM Promit Iqbal
+main: me.promit.itemstack.ItemStack
+api-version: 1.14
+commands:
+  push:
+    description: Pushes current item in hand to global stack
+    usage: /push
+    permission: itemstack.push
+  pop:
+    description: Pops item from top of global stack
+    usage: /pop
+    permission: itemstack.pop
+  peek:
+    description: Reveal the next item from the stack
+    usage: /peek
+    permission: itemstack.peek
+  stacksize:
+    description: Returns the size of the stack
+    usage: /stacksize
+    permission: itemstack.stacksize
+  stacktotal:
+    description: Total amount of units in stack
+    usage: /stacktotal
+    permission: itemstack.stacktotal
+  stackfind:
+    description: How many entries of item in hand in stack
+    usage: /stackfind
+    permission: itemstack.stackfind
+  stack:
+    description: ItemStack
+    usage: /stack
+    permission: itemstack.stack
