@@ -6,6 +6,7 @@ Players can push items to a globally (server-wide) shared stack, and pop items f
 information about items within the stack itself. Preserves quantity of items.
 
 # Commands:
+In-Game commands for players to use
 /push - Takes and removes the current item in a players hand (Besides air) and adds to the top of the global stack  
 /pop - Pops the item from the top of the stack and into the players inventory  
 /peek - Reveals (but doesn't remove) the item at the top of the stack  
@@ -14,6 +15,7 @@ information about items within the stack itself. Preserves quantity of items.
 /stackfind - Matches players item in hand with all entries in stack to find the quantity of that item within the stack  
 
 # Permissions:
+Each command has it's own permission to assign players, depending on which one's you would like to make available.
 itemstack.push  
 itemstack.pop  
 itemstack.peek  
