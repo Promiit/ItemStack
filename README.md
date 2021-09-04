@@ -1,6 +1,6 @@
 # Name: ItemStack
 # Author: Promiit
-Description: Minecraft Java Edition Plugin for use on Spigot or compatible servers. Implements a global item stack data structure to use within game
+Description: Minecraft Java Edition Plugin for use on Spigot or compatible servers. Implements a global stack of items to use within game
 
 Players can push items to a globally (server-wide) shared stack (Yes, just like the data structure!), and pop items from the top of the stack. Additional usage allows peeking into the stack and finding
 information about items within the stack itself. Preserves quantity of items.
